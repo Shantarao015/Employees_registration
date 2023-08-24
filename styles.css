@@ -1,46 +1,35 @@
 body {
-    font-family: Noto Sans;
-    background-color: aqua;
-}
-
-.container {
-    max-width: 600px;
-    background-color: beige;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Playfair Display;
+    background-image: linear-gradient(to bottom, #3498db, #e74c3c);
+    color: white;
+    margin: 20%;
+    padding: 10px;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 form {
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
-input[type="text"] {
-    flex: 1;
+input,
+button {
+    margin: 5px;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    width: 200px;
 }
 
 button {
-    padding: 8px 15px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
+    background-color: #ec2d0b;
+    color: white;
+    border: solid black 2px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
 }
 
 ul {
@@ -51,16 +40,7 @@ ul {
 li {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-}
-
-button.delete {
-    background-color: #dc3545;
-}
-
-button.edit {
-    background-color: #ffc107;
-    margin-right: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
 }
